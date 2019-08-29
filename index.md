@@ -7,7 +7,7 @@ hero body: Homepage hero body text
 is in navigation: false
 hero:
   title: Hero title
-  body: 
+  body: Hero body text.
 layout: default
 ---
 
