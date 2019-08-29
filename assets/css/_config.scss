@@ -1,0 +1,88 @@
+// paths
+$img-path: '../assets/img';
+
+// breakpoints
+$breakpoint-sm: 600px;
+$breakpoint-md: 900px;
+$breakpoint-lg: 1200px;
+$breakpoint-xlg: 1500px;
+
+// padding
+$padding-sm: 20px;
+$padding-md: 40px;
+$padding-lg: 60px;
+$padding-xlg: 80px;
+
+// wrapper
+$wrapper-max-width: 1240px + ($padding-lg * 2);
+
+// header
+$header-height-sm: 80px;
+$header-height-md: 80px;
+$header-height-lg: 95px;
+
+// transitions
+$transition-speed: .5s;
+$transition-delay: $transition-speed;
+
+// fonts
+$font-open-sans: 'PT Sans', sans-serif;
+
+// font assignments
+$primary-font: $font-open-sans;
+$secondary-font: '';
+
+// typography
+$base-font-family: $primary-font;
+$base-font-size: 15px;
+$base-line-height: 1.5;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+
+// color palette
+$color-primary: #303030;
+$color-primary-contrast: #fff;
+
+$color-secondary: #f8f8f8;
+$color-secondary-lighter: #ebebeb;
+
+$color-accent-primary: #2741cc;
+$color-accent-secondary: #2741cc;
+
+// base colors
+$base-font-color: $color-primary;
+$base-background-color: $color-secondary; 
+
+// buttons
+$btn-background-color: transparent;
+$btn-active-background-color: $color-accent-secondary;
+$btn-border-color: $color-accent-secondary;
+$btn-font-color: $color-accent-secondary;
+$btn-active-font-color: $color-primary-contrast;
+$btn-icon-color: $color-accent-secondary;
+$btn-active-icon-color: $color-primary-contrast;
+
+$btn-primary-background-color: $color-accent-primary;
+$btn-primary-active-background-color: transparent;
+$btn-primary-border-color:  $color-accent-primary;
+$btn-primary-active-border-color:  $color-accent-primary;
+$btn-primary-font-color: $color-primary-contrast;
+$btn-primary-active-font-color: $color-accent-primary;
+$btn-primary-icon-color: $color-primary-contrast;
+$btn-primary-active-icon-color: $color-accent-primary;
+
+$btn-secondary-background-color: $color-accent-secondary;
+$btn-secondary-border-color:  $color-accent-secondary;
+$btn-secondary-font-color: $color-primary-contrast;
+$btn-secondary-icon-color: $color-primary-contrast;
+
+// nav
+$nav-link-color: $color-accent-primary;
+
+// segment
+$segment-background-color: $color-primary-contrast;
