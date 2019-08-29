@@ -1,0 +1,31 @@
+.main {
+  padding-bottom: calcSize($padding-sm);
+  padding-top: calcSize($header-height-sm);
+
+  @include breakpoint(md) {
+    padding-bottom: calcSize($padding-md);
+    padding-top: calcSize($header-height-md);
+  }
+
+  @include breakpoint(lg) {
+    padding-bottom: calcSize($padding-lg);
+    padding-top: calcSize($header-height-lg);
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 calcSize($padding-sm);
+  position: relative;
+  width: 100%;
+
+  @include breakpoint(md) {
+    padding: 0 calcSize($padding-md);
+  }
+
+  @include breakpoint(lg) {
+    max-width: $wrapper-max-width;
+    padding: 0 calcSize($padding-lg);
+  }
+
+}

@@ -1,0 +1,175 @@
+.nav {
+  position: relative;
+
+  &-is-active {
+    overflow-y: hidden;
+  }
+
+  &__toggle {
+    display: block;
+    height: calcSize(40px);
+    position: relative;
+    width: calcSize(40px);
+    z-index: 10;
+
+    @include breakpoint(lg) {
+      display: none;
+    }
+
+    span {
+      background: $color-accent-primary;
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      text-indent: -9999px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: all $transition-speed ease;
+      width: 30px;
+
+      &:before,
+      &:after {
+        content: "";
+        background: $color-accent-primary;
+        display: block;
+        height: 2px;
+        left: 0%;
+        position: absolute;
+        text-indent: -9999px;
+        top: 0;
+        transition: all $transition-speed ease;
+        width: 30px;
+      }
+
+      &:before {
+        transform: translate(0, -8px);
+      }
+
+      &:after {
+        transform: translate(0, 8px);
+      }
+
+      .nav-is-active & {
+        background: transparent;
+  
+        &:before {
+          height: 3px;
+          transform: translateY(0) rotate(45deg);
+        }
+  
+        &:after {
+          height: 3px;
+          transform: translateY(0) rotate(-45deg);
+        }
+
+      }
+
+    }
+
+    
+  }
+
+  &__container {
+    @include align-items(center);
+    background: #fff;
+    @include flexbox;
+    height: 100vh;
+    left: 0;
+    @include justify-content(flex-end);
+    opacity: 0;
+    overflow: auto;
+    padding: $padding-sm;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    z-index: 9;
+
+    @include breakpoint(md) {
+      padding: $padding-md;
+    }
+
+    @include breakpoint(lg) {
+      background: transparent;
+      height: auto;
+      opacity: 1;
+      padding: 0;
+      position: static;
+      visibility: visible;
+      width: auto;
+    }
+
+    .nav-is-active & {
+      transition: all $transition-speed ease;
+      opacity: 1;
+      visibility: visible;
+    }
+
+  }
+
+  &__list {
+    
+    @include breakpoint(lg) {
+      @include align-items(center);
+      @include flexbox;
+      margin-top: calcSize(25px);
+    }
+  }
+
+  &__item {
+    margin-bottom: calcSize(10px);
+    text-align: right;
+
+    @include breakpoint(lg) {
+      margin-left: calcSize(30px);
+      margin-bottom: 0;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+    }
+
+    @include breakpoint(xlg) {
+      margin-left: calcSize(60px);
+    }
+
+  }
+
+  &__link {
+    color: $nav-link-color;
+    display: inline-block;
+    @include fontSize(28);
+    font-weight: $font-weight-extra-bold;
+    padding: calcSize(10px) 0;
+    position: relative;
+
+    @include breakpoint(lg) {
+      @include fontSize(14);
+      text-transform: uppercase;
+    }
+
+    &:after {
+      background: $color-accent-secondary;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      transition: all $transition-speed ease;
+      width: 0;
+    }
+
+    &:hover,
+    &--active {
+      &:after {
+        width: 100%;
+      }
+      
+    }
+
+  }
+
+}

@@ -1,0 +1,25 @@
+---
+title: Jekyll Theme
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+env: dev
+author: adropi
+description: Jekyll theme
+base_url: https://picitelli.github.io/jekyll-theme
+assets_url: https://picitelli.github.io/jekyll-theme/assets/
+url: https://picitelli.github.io/jekyll-theme
+exclude:
+- ".sass-cache"
+- Gemfile
+- Gemfile.lock
+- README.md
+- "*.gemspec"
+sass:
+  style: compressed
+  sass_dir: assets/css
