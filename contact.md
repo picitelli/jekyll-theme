@@ -2,7 +2,7 @@
 title: Contact
 date: 2019-08-29 13:53:00 Z
 permalink: "/contact"
-position: 3
+position: 4
 hero:
   title: Contact Us
   body: We are available
