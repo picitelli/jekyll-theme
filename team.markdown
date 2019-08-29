@@ -7,10 +7,11 @@ hero title: Our Team
 is in navigation: true
 ---
 
-{% for team_member in site.team %}
+{% assign sorted_team = site.team | sort:"position" %}
+{% for member in sorted_team %}
   <div>
-    <h2>{{ team_member.title }}</h2>
-    <p>{{ team_member.position }}</p>
-    {{ team_member.content | markdownify }}
+    <h2>{{ member.title }}</h2>
+    <p>{{ member.position }}</p>
+    {{ member.content | markdownify }}
   </div>
 {% endfor %}
