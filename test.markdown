@@ -1,12 +1,11 @@
 ---
-title: Test
+title: About
 date: 2019-08-29 13:05:00 Z
 permalink: "/test"
 position: 1
-test_field: Test field content
+hero title: About Us
+hero body: 
 layout: default
 ---
 
-<p>Test page</p>
-
-{{page.test_field}}
+About page.
