@@ -5,8 +5,8 @@ permalink: "/about"
 position: 1
 hero title: About Us
 hero body: 
-layout: default
 is in navigation: true
+layout: default
 ---
 
-About page.
+About page content.
