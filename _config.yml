@@ -11,20 +11,15 @@ collections:
 env: dev
 author: adropi
 description: Jekyll theme
-base_url: /
-assets_url: /assets/
-url: /
+base_url: "/"
+assets_url: "/assets/"
+url: "/"
 exclude:
 - ".sass-cache"
 - Gemfile
 - Gemfile.lock
 - README.md
 - "*.gemspec"
-
-# Build settings
-# markdown: kramdown
-
-# Assets
 sass:
   style: compressed
-  sass_dir: "assets/css"
+  sass_dir: assets/css
