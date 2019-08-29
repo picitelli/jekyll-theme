@@ -17,8 +17,9 @@ defaults:
     type: pages
   values:
     layout: default
-    hero title: ''
-    hero body: ''
+    hero:
+      title: ''
+      body: ''
     is in navigation: false
 - scope:
     path: ''
