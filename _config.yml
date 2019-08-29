@@ -1,0 +1,25 @@
+# Site settings
+env: dev
+title: Jekyll Theme
+author: adropi
+description: Jekyll theme
+base_url: "http://127.0.0.1:4000"
+assets_url: "/assets/"
+url: "http://127.0.0.1:4000"
+
+# Build settings
+# markdown: kramdown
+
+include: ['_pages']
+
+exclude:
+  - ".sass-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "*.gemspec"
+
+# Assets
+sass:
+  style: compressed
+  sass_dir: "assets/css"

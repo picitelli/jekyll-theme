@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: $base-background-color;
+  color: $base-font-color;
+  font-family: $base-font-family, arial, sans-serif;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  overflow-x: hidden;
+}
+
