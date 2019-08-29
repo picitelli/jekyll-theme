@@ -11,10 +11,9 @@ collections:
 env: dev
 author: adropi
 description: Jekyll theme
-base_url: http://127.0.0.1:4000
-assets_url: "/assets/"
-url: http://127.0.0.1:4000
-
+base_url: https://picitelli.github.io/jekyll-theme
+assets_url: https://picitelli.github.io/jekyll-theme/assets/
+url: https://picitelli.github.io/jekyll-theme
 exclude:
 - ".sass-cache"
 - Gemfile

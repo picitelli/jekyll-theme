@@ -7,3 +7,5 @@ layout: default
 ---
 
 <strong>Test page</strong>
+
+{{test_field}}
