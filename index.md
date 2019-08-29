@@ -4,8 +4,11 @@ permalink: "/"
 position: 0
 hero title: Homepage hero title
 hero body: Homepage hero body text
-layout: default
 is in navigation: false
+hero:
+  title: Hero title
+  body: 
+layout: default
 ---
 
 Homepage content goes here...
