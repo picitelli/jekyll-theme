@@ -8,4 +8,4 @@ This is the homepage. Lorem ipsum....
 
 Pages
 
-{{site.pages}}
+{{site.html_pages}}
