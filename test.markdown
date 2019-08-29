@@ -6,6 +6,6 @@ test_field: Test field content
 layout: default
 ---
 
-<strong>Test page</strong>
+<p>Test page</p>
 
 {{test_field}}
