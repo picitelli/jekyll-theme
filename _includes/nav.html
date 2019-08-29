@@ -7,7 +7,8 @@
   <div class="nav__container">
 
     <ul class="nav__list">
-      {% for item in site.pages %}
+      {% assign sorted_nav = site.pages | sort:"position" %}
+      {% for item in sorted_nav %}
         {% if item['is in navigation'] %}
         <li class="nav__item">
           <a class="nav__link {% if item.url == page.url %}nav__link--active{% endif %}" href="{{ item.url | prepend: site.base_url }}">{{ item.title }}</a>
