@@ -12,22 +12,20 @@ collections:
     title: Uploads
     output: true
 defaults:
-  - # Set default for pages
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      hero title: ""
-      hero body: ""
-      is in navigation: false
-  - # Set default for "Team" collection
-    scope:
-      path: ""
-      type: "team"
-    values:
-      image: "/path/to/image"
-      position: ""
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+    hero title: ''
+    hero body: ''
+    is in navigation: false
+- scope:
+    path: ''
+    type: team
+  values:
+    image: "/path/to/image"
+    position: ''
 env: dev
 author: adropi
 description: Jekyll theme
