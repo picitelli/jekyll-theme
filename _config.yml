@@ -8,9 +8,7 @@ assets_url: "/assets/"
 url: "http://127.0.0.1:4000"
 
 # Build settings
-# markdown: kramdown
-
-include: ['_pages']
+markdown: kramdown
 
 exclude:
   - ".sass-cache"
