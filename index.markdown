@@ -4,8 +4,4 @@ permalink: "/"
 layout: default
 ---
 
-<section class="section">
-
- This is the homepage
-
-</section>
+This is the homepage. Lorem ipsum....
