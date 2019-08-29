@@ -7,15 +7,18 @@
   
     {% include svgs.html %}
     {% include header.html %}
-    
+
     <main class="main">
 
-      <div class="wrapper">
+      {% include hero.html %}
 
-        {{ content }}
-        {% include footer.html %}
-
+      <div class="content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
+
+      {% include footer.html %}
 
     </main>
 
