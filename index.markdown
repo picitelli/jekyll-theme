@@ -1,11 +1,11 @@
 ---
-title: About
-permalink: "/about"
+title: Homepage
+permalink: "/"
 layout: default
 ---
 
 <section class="section">
 
-  About
+ This is the homepage
 
 </section>
