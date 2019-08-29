@@ -8,4 +8,4 @@ layout: default
 
 <p>Test page</p>
 
-{{test_field}}
+{{page.test_field}}
