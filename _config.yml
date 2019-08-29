@@ -29,9 +29,9 @@ defaults:
 env: dev
 author: adropi
 description: Jekyll theme
-base_url: https://picitelli.github.io/jekyll-theme
+base_url: https://picitelli.github.io
 assets_url: https://picitelli.github.io/jekyll-theme/assets/
-url: https://picitelli.github.io/jekyll-theme
+url: /jekyll-theme
 exclude:
 - ".sass-cache"
 - Gemfile
