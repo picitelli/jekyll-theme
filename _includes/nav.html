@@ -11,7 +11,7 @@
       {% for item in sorted_nav %}
         {% if item['is in navigation'] %}
         <li class="nav__item">
-          <a class="nav__link {% if item.url == page.url %}nav__link--active{% endif %}" href="{{ item.url | prepend: site.base_url }}">{{ item.title }}</a>
+          <a class="nav__link {% if item.url == page.url %}nav__link--active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
         {% endif %}
       {% endfor %}
