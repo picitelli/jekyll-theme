@@ -7,9 +7,9 @@
   <div class="nav__container">
 
     <ul class="nav__list">
-      {% for item in site.data.navigation %}
+      {% for link in site.data.links %}
         <li class="nav__item">
-          <a class="nav__link {% if item.url == page.url %}nav__link--active{% endif %}" href="{{ item.url | prepend: site.base_url }}">{{ item.title }}</a>
+          <a class="nav__link {% if link.url == page.url %}nav__link--active{% endif %}" href="{{ link.url | prepend: site.base_url }}">{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>
