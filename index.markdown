@@ -6,4 +6,6 @@ layout: default
 
 This is the homepage. Lorem ipsum....
 
+Pages
+
 {{site.pages}}
