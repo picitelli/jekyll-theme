@@ -12,7 +12,7 @@ env: dev
 author: adropi
 description: Jekyll theme
 base_url: https://picitelli.github.io/jekyll-theme
-assets_url: https://picitelli.github.io/jekyll-theme/assets
+assets_url: https://picitelli.github.io/jekyll-theme/assets/
 url: https://picitelli.github.io/jekyll-theme
 exclude:
 - ".sass-cache"
