@@ -2,7 +2,7 @@
 title: Test
 date: 2019-08-29 13:05:00 Z
 permalink: "/test"
-position: 2
+position: 1
 test_field: Test field content
 layout: default
 ---
