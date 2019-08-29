@@ -7,10 +7,25 @@ collections:
     output: true
   team:
     title: Team
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+    hero title: ''
+    hero body: ''
+    is in navigation: false
+- scope:
+    path: ''
+    type: team
+  values:
+    image: "/path/to/image"
+    position: ''
 env: dev
 author: adropi
 description: Jekyll theme
