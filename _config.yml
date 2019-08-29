@@ -14,7 +14,6 @@ description: Jekyll theme
 base_url: http://127.0.0.1:4000
 assets_url: "/assets/"
 url: http://127.0.0.1:4000
-
 exclude:
 - ".sass-cache"
 - Gemfile
