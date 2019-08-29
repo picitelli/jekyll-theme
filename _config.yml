@@ -17,7 +17,7 @@ defaults:
     type: pages
   values:
     layout: default
-    hero: 
+    hero:
       title: ''
       body: ''
     is in navigation: false
