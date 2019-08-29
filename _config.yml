@@ -12,13 +12,12 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "team"
-    values:
-      image: "/path/to/image"
-      position: ""
+- scope:
+    path: ''
+    type: team
+  values:
+    image: "/path/to/image"
+    position: ''
 env: dev
 author: adropi
 description: Jekyll theme
