@@ -1,23 +1,26 @@
-# Site settings
-env: dev
+---
 title: Jekyll Theme
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+env: dev
 author: adropi
 description: Jekyll theme
-base_url: "http://127.0.0.1:4000"
+base_url: http://127.0.0.1:4000
 assets_url: "/assets/"
-url: "http://127.0.0.1:4000"
-
-# Build settings
-markdown: kramdown
+url: http://127.0.0.1:4000
 
 exclude:
-  - ".sass-cache"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "*.gemspec"
-
-# Assets
+- ".sass-cache"
+- Gemfile
+- Gemfile.lock
+- README.md
+- "*.gemspec"
 sass:
   style: compressed
-  sass_dir: "assets/css"
+  sass_dir: assets/css
